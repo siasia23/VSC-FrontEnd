@@ -1,0 +1,129 @@
+* {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+html { font-size: 16px; }
+nav {
+    width: 60%; height: 50px;
+    /* background: #f2f2f2; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div {
+    width: 100px; height: 100%;
+    border: 0px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+}
+nav div:nth-child(2) { width: 150px; }
+
+section {
+    width: 60%; height: 1000px;
+    margin: 20px auto;
+    border: 0px solid #ccc;
+}
+.at {
+    width: 100%; height: 100%;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+.at> div {
+    width: 45%; height: 100%;
+    border: 0px solid blue;
+}
+.at> .left {   }
+.at> .left> .big {
+    width: 100%; height: 700px;
+    border: 0px solid red;
+}
+.at> .left> .big> img {
+    width: 100%; height: 100%;
+}
+.at> .left> .small {
+    width: 100%; height: 100px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.at> .left> .small> li {
+    width: 13%; height: 100%;
+    border: 0px solid red;
+    cursor: pointer;
+}
+.at> .left> .small> li> img {
+    width: 100%; height: 100%; 
+}
+
+.at> .right {   }
+.at> .right> .detail {
+    width: 100%; height: 700px;
+    border: 0px solid black;
+}
+.at> .right> .detail> li {
+    width: 100%; height: 50px;
+    border: 0px solid #ccc;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.at> .right> .detail> li.text {    
+    display: block;
+    height: 150px;
+}
+.at> .right> .detail> li.text p:nth-child(1) {
+    height: 30px; color: red;
+}
+.at> .right> .detail> li.text p:nth-child(2) {
+    border: 1px solid #ccc;
+    height: 120px;
+}
+
+.at> .right> .detail> li.buy {
+    background: #ccc;
+    /* text-align: center; */
+    text-indent: 120px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+.at> .right> .detail> li> div {
+    width: 70%;
+    border: 0px solid green;
+    line-height: 50px;    
+}
+.at> .right> .detail> li> div:first-child {
+    width: 30%;
+}
+
+.at> .right> .detail> li.put {
+    justify-content: space-between;
+}
+.at> .right> .detail> li.put> div {
+    width: 48%;
+    text-align: center;
+}
+.at> .right> .detail> li.qna {
+    background: #01C73C;
+    color: white;
+    text-indent: 100px;
+}
+.at> .right> .detail> li.msn {
+    background: #FFD400;
+    text-indent: 200px;
+}
+.at> .right> .detail> li.btn {
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+}

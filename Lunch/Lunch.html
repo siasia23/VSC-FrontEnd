@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>점심메뉴 고르기</title>
+    <link rel="stylesheet" href="css/Lunch.css">
+    <script src="javascript/jQuery.3.7.1.js"></script>
+    <script src="javascript/Lunch.js"></script>
+</head>
+<body>
+    <div class="layout">
+
+        <!-- 한식, 분식, 중식, 양식 선택한 음식 그림과 가격 표시 -->
+        <ul class="imgText">
+            <li>
+                <div class="img">
+                    <img src="img/img1.jpg" alt="" class="pic">
+                </div>
+                <div class="text"></div>
+            </li>
+        </ul>
+
+        <!-- 한식, 분식, 중식, 양식 선택한 음식 종류 표시 -->
+        <ul class="wrap3">
+            <li class="box0"></li>
+            <li class="box1"></li>
+            <li class="box2"></li>
+            <li class="box3"></li>
+        </ul>
+
+        <!-- 한식, 분식, 중식, 양식 음식 종류 콤보박스 -->
+        <div class="combo_box">
+            <select name="" id="sel" onchange="func_ch(this)">
+                <option value="0">선택!!</option>
+                <option value="1">천진분식</option>
+                <option value="2">육수당</option>
+                <option value="3">중화반점</option>
+                <option value="4">대왕돈가스</option>
+                <option value="5">김밥천국</option>
+                <option value="6">맘스터치</option>
+            </select>
+        </div>
+
+        <!-- 고르기 버튼 -->
+        <div class="btn">
+            <button class="start">고르기</button>
+            <button class="again">다시 고르기</button>
+        </div>
+
+    </div>
+</body>
+</html>

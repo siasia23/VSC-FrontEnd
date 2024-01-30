@@ -1,0 +1,91 @@
+* {
+    margin: 0;  padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a {color: black;}
+
+.layout {
+    width: 1200px; 
+    /* height: 400px; */
+    padding: 30px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* 한식, 분식, 중식, 양식 선택한 음식 그림과 가격 표시 */
+.imgText {
+    width: 300px; height: 300px;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+.imgText li {
+    text-align: center;
+}
+.imgText li .img {
+    height: 250px;
+}
+.imgText li .img img {
+    height: 180px;
+    margin-top: 25px;
+}
+.imgText li .text {
+    height: 50px;
+    line-height: 50px;
+}
+
+/* 한식, 분식, 중식, 양식 선택한 음식 종류 표시 */
+.wrap3 {
+    width: 300px; height: 150px;
+    border: 0px solid black;
+    padding-left: 50px;
+}
+.wrap3 li {
+    width: 100%; height: 50px;
+    border: 0px solid blue;
+    border-radius: 15px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.wrap3 .box0 {
+    font-family: hy견고딕;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* 한식, 분식, 중식, 양식 음식 종류 콤보박스 */
+.combo_box {
+    /* position: absolute;
+    top: 50px; left: 70%; */
+    width: 300px;
+    border: 0px solid black;
+}
+.combo_box select {
+    display: block;
+    width: 100%; height: 40px;
+}
+.combo_box select option {
+    font-size: 1.3rem;
+}
+
+/* 고르기 버튼 */
+.btn {
+    width: 300px;
+    margin-top: 0px;
+    border: 0px solid red;
+}
+.btn button {
+    width: 150px; height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin: 0 auto;
+}
+.btn button:hover {
+    background: blue;
+    color: white;
+}
